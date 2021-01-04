@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "ejecutarphp",
+            "command": "chrome",
+            "windows": {
+                "command": 
+            "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"},
+            "args": [
+                "http://localhost/Desarrollo%20web/nitro/"
+                
+            ]
+        }
+    ]
+}
