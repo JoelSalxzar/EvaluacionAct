@@ -38,7 +38,7 @@
 
 
   <div class="site-wrap">
-
+ 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -61,26 +61,26 @@
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
-              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="./index.php" class="nav-link">Inicio</a></li>
                 <li class="has-children">
                   <a href="nosotros.php" class="nav-link">Sobre nosotros</a>
                   <ul class="dropdown">
-                    <li><a href="nosotros.php #team-section" class="nav-link">Equipo</a></li>
+                   
                     <li><a href="https://www.youtube.com/channel/UCkN8dA1D-AoTjDwOPXWEXKw" class="nav-link">Videos</a></li>
                     <li><a href="./ArtYPub.php" class="nav-link">Articulos y Publicaciones</a></li>
                     </li>
                   </ul>
                 </li>
-          
+                
                     <li>
                       <a href="normas.php">Normas</a>
                       
                     </li>
 
                 
-                <li><a href="guias.php" class="nav-link">Guías</a></li>
-                
+                <li><a href="./guias.php" class="nav-link">Guías</a></li>
+                <li><a href="./EvaluacionActividades.php" class="nav-link">Evaluación de Actividades</a></li>
                 <li><a href="./certificaciones.php" class="nav-link">Certificaciones</a></li>
                 <li><a href="#contact-section" class="nav-link">Contactanos</a></li>
               </ul>
@@ -95,124 +95,112 @@
       
     </header>
 
-  
-       
-
-
-
-
-    
-
-
-
-
-
-    <section class="site-section" id="portfolio-section">
-      
-
+    <section class="site-section">
       <div class="container">
-
-        <div class="row mb-3">
-          <div class="col-12 text-center" data-aos="fade">
-          <h2 class="section-title mb-3">......</h2> 
-          </div>
-        </div>
-
-          <div class="row justify-content-center mb-5" data-aos="fade-up">
-          <div id="filters" class="filters text-center button-group col-md-7">
-            <button class="btn btn-primary active" data-filter="*">Laboratorio Spin-Off</button>
-            
-          </div>
+      <div class="row mb-15 justify-content-center">
+      <table class="table table-striped table-hover">
+      <thead>
+      <tr>
+        <th scope="col">Valores de calificaciones</th>
+        <th scope="col">Niveles de calificación</th>
+        <th scope="col">Porcentaje correspondido</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th scope="row"> <b>N</b> = No aprobado</th>
+        <td>No hay mínima evidencia del completamiento del atributo definido en el proceso.</td>
+        <td>0 a 15% completado.</td>
+      </tr>
+      <tr>
+        <th scope="row"><b>P</b> = Parcialmente completado</th>
+        <td>Hay evidencia de acercamiento, y algo completado el atributo definido en el proceso. Algunos de los aspectos pueden ser impredecidos.</td>
+        <td> >15% a 50% completado.</td>
+      </tr>
+       <tr>
+        <th scope="row"><b>C</b> = Casi completado</th>
+        <td>Hay evidencia y gran porcentaje completado en el proceso definido. Algunas deilidades relacionadas a este atributo podrían existir en el proceso de calificación.</td>
+        <td>>50% to 85% completado.</td>
+      </tr>
+      <tr>
+        <th scope="row"><b>T</b> =  Totalmente compleado </th>
+        <td>Hay evidencia de un completo y logrado atributo en el proceso de calificación. Errores significantes podrían estar relacionades con el proceso de calificación.</td>
+        <td>>85% to 100% completado.</td>
+      </tr>
+     </tbody>
+     </table>
+     <div class="row mb-15 justify-content-center">
+     <h6><a href="./ActividadesGP.php" class="nav-link">Revisar actividades de gestión</a></h6>
+     <h6><a href="./ActividadesIS.php" class="nav-link">Revisar actividades de implementación</a></h6>
+     </div>
         </div>  
-        
-          <div id="posts" class="row no-gutter">
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/Certificado2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/Certificado2.jpg">
-            </a>
-          </div>
+        </div>           
+    </section> 
 
-          <div id="posts" class="row no-gutter">
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/Certificado.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/Certificado.jpg">
-            </a>
-          </div>
-
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/Certificado3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/Certificado3.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/Certificado4.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/Certificado4.jpg">
-            </a>
-          </div>
-
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-
-            <a href="images/Certificado5.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/Certificado5.jpg">
-            </a>
-
-          </div>
-
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/Certificado6.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/Certificado6.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/Certificado7.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/Certificado7.jpg">
-            </a>
-          </div>
-
-         
-
-
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/ITZ 2.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/ITZ 2.jpg">
-            </a>
-          </div>
-
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/ITZ3.jpg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/ITZ3.jpg">
-            </a>
-          </div>
-
-          
-
-        </div>
-      </div>
-
+    
+    <section class="site-section">
+      <div class="container">
+      <div class="row mb-15 justify-content-center">
+      <table class="table table-dark table-striped">
+      <thead>
+      <tr>
+        <th scope="col">Rol</th>
+        <th scope="col">Abreviación</th>
+        <th scope="col">Competencia</th>
+      </tr>
+      </thead>
+      
+      <tbody>
+      <tr>
+        <th scope="row">Analyst</th>
+        <td>AN</td>
+        <td>Knowledge and experience eliciting, specifying and analyzing the requirements. Knowledge in designing user interfaces and ergonomic criteria. Knowledge of the revision techniques. Knowledge of the editing techniques. Experience on the software development and maintenance. </td>
+      </tr>
+      <tr>
+        <th scope="row">Customer</th>
+        <td>CUS</td>
+        <td>Knowledge of the Customer processes and ability to explain the Customer requirements. The Customer (representative) must have the authority to approve the requirements and their changes. The Customer includes user representatives in order to ensure that the operational environment is addressed. Knowledge and experience in the application domain. </td>
+      </tr>
+       <tr>
+        <th scope="row">Designer</th>
+        <td>DES</td>
+        <td>Knowledge and experience in the  Software Components and architecture design. Knowledge of the revision techniques. Knowledge and experience in the planning and performance of integration tests. Knowledge of the editing techniques. Experience on the software development and maintenance. </td>
+      </tr>
+      <tr>
+        <th scope="row">Programar</th>
+        <td>PR.</td>
+        <td>Knowledge and/or experience in programming, integration and unit tests. Knowledge of the revision techniques. Knowledge of the editing techniques. Experience on the software development and maintenance. </td>
+      </tr>
+      <tr>
+        <th scope="row">Project Manager</th>
+        <td>PM.</td>
+        <td>Leadership  capability  with  experience  making  decisions, planning, personnel management, delegation and supervision, finances and software development.</td>
+      </tr>
+      <tr>
+        <th scope="row">Technical Leader</th>
+        <td>TL.</td>
+        <td>Knowledge and experience in the software process domain. </td>
+      </tr>
+      <tr>
+        <th scope="row">Work Team</th>
+        <td>WT</td>
+        <td>Knowledge  and  experience  according  to  their  roles  on  the project.</td>
+      </tr>
+     </tbody>
+     </table>
+     </div>
+        </div>  
+        </div>           
     </section>
-    
-  
-  
+
     
 
 
+    
+ 
 
 
-
-   
-
-
+    
     <section class="site-section bg-light" id="contact-section" data-aos="fade">
       <div class="container">
         <div class="row mb-5">
@@ -242,15 +230,6 @@
               <a href="#">itzspinoff@gmail.com</a>
             </p>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 mb-5">
-
-            
-
-            
-          </div>
-          
         </div>
       </div>
     </section>
@@ -300,7 +279,7 @@
         </div>
       </div>
     </footer>
-
+  
   </div> <!-- .site-wrap -->
 
   <script src="js/jquery-3.3.1.min.js"></script>

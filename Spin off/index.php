@@ -60,42 +60,32 @@
                       
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
-
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                
                 <li class="has-children">
                   <a href="nosotros.php" class="nav-link">Sobre nosotros</a>
                   <ul class="dropdown">
-          
                     <li><a href="https://www.youtube.com/channel/UCkN8dA1D-AoTjDwOPXWEXKw" class="nav-link">Videos</a></li>
                     <li><a href="./ArtYPub.php" class="nav-link">Articulos y Publicaciones</a></li>
                     </li>
                   </ul>
                 </li>
-                
                     <li>
                       <a href="normas.php">Normas</a>
                       
                     </li>
-
-                
                 <li><a href="guias.php" class="nav-link">Guías</a></li>
-                <li><a href="guias.php" class="nav-link">Evaluación de actividades</a></li>
+                <li><a href="EvaluacionActividades.php" class="nav-link">Evaluación de actividades</a></li>
                 <li><a href="./certificaciones.php" class="nav-link">Certificaciones</a></li>
-                <li><a href="#contact-section" class="nav-link">Contactanos</a></li>
+                <li><a href="#contact-section" class="nav-link">Contáctanos</a></li>
               </ul>
             </nav>
           </div>
-
-
           <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3"></span></a></div>
 
         </div>
       </div>
       
     </header>
-
-  
      
     <div class="site-blocks-cover overlay" style="background-image: url(images/hero_2.jpg);" data-aos="fade" id="home-section">
 
@@ -122,30 +112,11 @@
       </a>
     </div>  
 
-
-
-
-    
-
-
-
-
-
-
-    
-  
-
-
-
-
-   
-
-
     <section class="site-section bg-light" id="contact-section" data-aos="fade">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Contactanos</h2>
+            <h2 class="section-title mb-3">Contáctanos</h2>
           </div>
         </div>
         <div class="row mb-5">
@@ -173,16 +144,10 @@
         </div>
         <div class="row">
           <div class="col-md-12 mb-5">
-
-            
-
-            
           </div>
-          
         </div>
       </div>
     </section>
-
     
     <footer class="site-footer">
       <div class="container">
